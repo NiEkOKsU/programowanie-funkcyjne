@@ -8,4 +8,4 @@ subtrNFrom5 :: Num a => a -> a
 subtrNFrom5 = (5 -)
 
 subtr5From_ :: Num a => a -> a
-subtr5From_ y = y - 5
+subtr5From_ = flip (-) 5
